@@ -1,0 +1,174 @@
+# 通用
+"common.upload.img.event_type.incorrect" = "事件类型不正确"
+"upload.img.too.large" = "图片文件过大"
+"upload.img.format.incorrect" = "图片文件格式不正确"
+
+# 上传
+"upload.avatar.too.large" = "头像文件过大"
+"upload.avatar.format.incorrect" = "头像文件格式不正确"
+
+# 登录
+"http.login.success" = "登录成功"
+"http.login.admin.no.exit" = "用户名或密码错误"
+"http.login.admin.prohibited" = "用户禁止登录"
+"http.login.admin.password.error" = "密码错误"
+"http.login.admin.token.get.error" = "获取token失败"
+"http.login.admin.token.json.error" = "登录信息转json失败"
+"http.login.admin.token.save.error" = "用户登录时存入token到redis失败"
+"http.login.merchant.password.error" = "密码错误"
+"http.login.merchant.no.exit" = "用户名或密码错误"
+"http.login.merchant.prohibited" = "商户禁止登录"
+"http.login.merchant.token.get.error" = "获取token失败"
+
+# 角色
+"role.id.no.exist" = "角色不存在"
+"role.disable" = "角色被禁用"
+"role.pid.no.exist" = "父级角色不存在"
+"role.name.exist" = "角色名称已存在"
+"role.del.subrole.first" = "请先删除子角色"
+"role.api.invalid" = "存在无效的api"
+"role.del.account.first" = "角色底下有账号不能删除"
+"role.menu.invalid" = "存在无效的菜单"
+"role.parent.menu.no.exist" = "包含父级不存在的菜单，请先设置父级菜单"
+"role.parent.api.no.exist" = "包含父级不存在的API，请先设置父级API"
+"role.status.has.account.disable" = "角色底下有账号不能禁用"
+
+# 菜单
+"menu.id.no.exist" = "菜单不存在"
+"menu.pid.no.exist" = "父级菜单不存在"
+"menu.menu_name.exist" = "菜单名称已存在"
+"menu.del.submenu.first" = "请先删除子菜单"
+"menu.del.has.role" = "菜单正在被角色使用不能删除"
+
+# 语言
+"lang.no.exist" = "系统语言不存在"
+
+# 管理员
+"admin.id.no.exist" = "管理员不存在"
+"admin.username.exist" = "管理员账号已存在"
+
+# api
+"api.id.no.exist" = "api不存在"
+"api.params.method.incorrect" = "请求方法参数不正确"
+"api.path.exist" = "path已存在"
+"api.del.has.role" = "api正在被角色使用不能删除"
+
+# 荷官
+"dealer.id.no.exist" = "荷官不存在"
+"dealer.employee_number.exist" = "荷官工号已存在"
+
+# 系统币种
+"system_currency.id.no.exist" = "系统币种不存在"
+
+# 币种
+"currency.id.no.exist" = "币种不存在"
+"currency.code.exist" = "币种编码已存在"
+"currency.code.no.exist" = "币种编码不存在"
+"currency.to_code.duplicated" = "目标币种重复"
+"currency.to_code.exchange_rate.incorrect" = "目标币种汇率格式不正确"
+"currency.del.exist.merchant" = "币种已被商家使用不能删除"
+"currency.del.exist.player" = "币种已被会员使用不能删除"
+"currency.del.exist.dealer" = "币种已被荷官使用不能删除"
+
+# 商户
+"merchant.id.no.exist" = "商户不存在"
+"merchant.username.exist" = "商户账号已存在"
+"merchant.parent_id.no.exist" = "上级商户不存在"
+"merchant.currency.id.no.exist" = "商户币种不存在"
+"merchant.del.has.player" = "存在玩家的不能删除"
+"merchant.del.has.sub" = "请先删除子账号"
+"merchant.add.chip.no.exist" = "筹码不存在或已被禁用"
+"merchant.add.make.code.error" = "生成商户号失败"
+"merchant.add.DefaultPlanForm.error" = "默认系统限红模板错误"
+"merchant.add.username.eq.sub_username" = "主商户不能和子账号相同"
+"merchant.add.sub.chip.contain.parant" = "子商户的筹码只能是主商户有的筹码"
+"merchant.addChildren.parent.no.root" = "只有主商户能添加子商户"
+"merchant.addChildren.commission_rate.no.gt.root" = "子商户的成数不能大于主商户"
+"merchant.addChildren.rolling_rate.no.gt.root" = "子商户的洗码比不能大于主商户"
+"merchant.can.not.edit.this.account" = "你不能编辑这个账号"
+"merchant.add.tip.error" = "配置的打赏面值超出范围"
+
+# 游戏分类
+"game_category.id.no.exist" = "游戏分类不存在"
+"game_category.code.exist" = "游戏分类标识已存在"
+"game_category.del.game_table.first" = "请先删除桌台"
+"game_category.sub.code.no.exist" = "游戏子分类标识不存在"
+
+# 游戏桌台
+"game_table.id.no.exist" = "游戏桌台不存在"
+"game_table.code.exist" = "游戏桌台标识已存在"
+"game_table.desk_no.exist" = "游戏桌号已存在"
+
+# 玩家
+"play.id.no.exist" = "玩家不存在"
+"play.username.exist" = "玩家账号已存在"
+"play.parent_id.no.exist" = "上级玩家不存在"
+"play.player_type.error" = "玩家类型错误"
+"play.money_type.error" = "玩家模式错误"
+"play.add.chip.no.exist" = "筹码不存在或已被禁用"
+"play.add.betting_limit.no.exist" = "限红不存在或已被禁用"
+"play.add.chip.merchant.no.exist" = "所选的筹码没有在商家筹码里"
+"play.add.betting_limit.merchant.no.exist" = "所选的限红没有在商家限红里"
+"play.add.chip.merchant.template.no.exist" = "筹码模板里只能包含商户筹码"
+"play.add.self" = "只能创建自己或子商户的会员"
+"play.edit.self" = "只能编辑自己或子商户的会员"
+
+# 控端账号
+"control_account.id.no.exist" = "控端账号不存在"
+"control_account.username.exist" = "控端账号已存在"
+"control_account.level.no.exist" = "控端账号等级不存在"
+
+# 限红
+"betting_limit.id.no.exist" = "限红不存在"
+"betting_limit.max.lt.min" = "最大投注小于最小投注"
+"betting_limit.MinBet.incorrect" = "最小投注格式不正确"
+"betting_limit.MaxBet.incorrect" = "最大投注格式不正确"
+"betting_limit.MaxBet.gt.10000000" = "最大投注大于10000000"
+"betting_limit.MinBet.lte.zero" = "最小投注小于等于0"
+
+# 筹码
+"system_chip.id.no.exist" = "筹码不存在"
+"system_chip.Amount.incorrect" = "筹码数量格式不正确"
+"system_chip.Amount.lte.zero" = "筹码数量小于等于0"
+"system_chip.Amount.exist" = "该面值的筹码已存在"
+
+# 开答
+"game_answer.game_type.incorrect" = "游戏类型不正确"
+
+# 限红方案
+"template_plan.name.exist" = "限红方案名称已存在"
+"template_plan.area.incorrect" = "限红方案区域不正确"
+"template_plan.used" = "限红方案已被使用不能修改/删除"
+
+# 限红模板
+"template_plan_form.id.no.exist" = "系统限红模板不存在"
+"template_plan_form.name.exist" = "系统限红模板名称已存在"
+"template_plan_form.game.no.exist" = "系统限红模板游戏不存在"
+"template_plan_form.betArea.categorySub.incorrect" = "系统限红模板下注区域分类不正确"
+"template_plan_form.area.incorrect" = "系统限红模板区域不正确"
+"template_plan_form.min_bet.incorrect" = "系统限红模板最小投注金额格式不正确"
+"template_plan_form.max_bet.incorrect" = "系统限红模板最大投注金额格式不正确"
+"template_plan_form.digits.incorrect" = "系统限红模板最大和最小投注金额小数位必须一样"
+
+# 商户限红模板
+"merchant_template_betlimit.id.no.exist" = "商户限红模板不存在"
+"merchant_template_betlimit.game.no.exist" = "商户限红模板游戏不存在"
+"merchant_template_betlimit.betArea.categorySub.incorrect" = "商户限红模板下注区域分类不正确"
+"merchant_template_betlimit.area.incorrect" = "商户限红模板区域不正确"
+"merchant_template_betlimit.del.default" = "默认模板不能删除"
+"merchant_template_betlimit.del.one" = "至少保留一个模板"
+"merchant_template_betlimit.edit.default.one" = "至少保留一个模板是默认"
+"merchant_template_betlimit.del.self" = "只能删除自己或子商户的模板"
+"merchant_template_betlimit.add.self" = "只能创建自己或子商户的模板"
+"merchant_template_betlimit.edit.self" = "只能编辑自己或子商户的模板"
+"merchant_template_betlimit.detail.no_permission" = "没有权限查看商户限红模板"
+
+# 系统公告
+"system_notice.id.no.exist" = "系统公告不存在"
+"system_notice.title.exist" = "公告标题已存在"
+
+# 服务节点
+"service_node.id.no.exist" = "服务节点不存在"
+
+# 商户公告
+"merchant_notice.title.exist" = "公告标题已存在"

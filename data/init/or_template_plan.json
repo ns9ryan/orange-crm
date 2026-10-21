@@ -1,0 +1,194 @@
+[
+  {
+    "category_sub": "CLASSIC_BACX",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr11z8d9c69d0igjak20024dyy5",
+    "min_value": 10,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "CLASSIC_BACX",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr11z8d9c6b3szwp243001k10ee",
+    "min_value": 10,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "CLASSIC_BACX",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr11z8d9c6nxc5hr584004ztih6",
+    "min_value": 100,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "CLASSIC_BACX",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr11z8d9c6wet5tjbg500ued2ca",
+    "min_value": 400000,
+    "max_value": 200000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "DTX",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr190od9c7esiaq23s100bui45r",
+    "min_value": 100,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "DTX",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr190od9c7ld0woczc200pi0ntl",
+    "min_value": 10,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "DTX",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr190od9c7n947xhq03009jkfsu",
+    "min_value": 200,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "DTX",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr190od9c7o56ffe00400nich1z",
+    "min_value": 200000,
+    "max_value": 200000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "ROT",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr190od9c7ssgy3w4o5000oa27o",
+    "min_value": 100,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "ROT",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr190od9c7w180jckc600h0bw23",
+    "min_value": 10,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "ROT",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr190od9c8ap17rrfg70067jfh9",
+    "min_value": 300,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "ROT",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr190od9c8hbs0lbpk800m3oegh",
+    "min_value": 300000,
+    "max_value": 200000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SICBO",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr190od9c8oit01wsg900gb9m7l",
+    "min_value": 100,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SICBO",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr190od9c8rfzeleioa006k3o61",
+    "min_value": 10,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SICBO",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr190od9c8vqnox13cb00r8c2dg",
+    "min_value": 100,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SICBO",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr190od9c90vgxyq2kc00b6969i",
+    "min_value": 100000,
+    "max_value": 200000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "FTAN",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr190od9c91hea84ood00322k4y",
+    "min_value": 1000,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "FTAN",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr190od9c91opbk7bse00mrcnb0",
+    "min_value": 100,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "FTAN",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr190od9c91wnv7h9cf00f29o0w",
+    "min_value": 10000,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "FTAN",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr190od9c9242pq3xwg00u0ptur",
+    "min_value": 10000000,
+    "max_value": 200000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SDIE",
+    "name": "CNY:10-1万",
+    "plan_id": "173r3pr190od9c93umyqkj8h00dhddog",
+    "min_value": 100,
+    "max_value": 1000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SDIE",
+    "name": "USD:1-1千",
+    "plan_id": "173r3pr190od9c95d7jyrzci00zgdt5x",
+    "min_value": 10,
+    "max_value": 100000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SDIE",
+    "name": "RUB:100-10万",
+    "plan_id": "173r3pr190od9c974z1cdkkj003u5mbp",
+    "min_value": 600,
+    "max_value": 10000000,
+    "digits": 100
+  },
+  {
+    "category_sub": "SDIE",
+    "name": "VND:10万-200万",
+    "plan_id": "173r3pr190od9c98yf1nzqkk00b3703v",
+    "min_value": 800000,
+    "max_value": 200000000,
+    "digits": 100
+  }
+]

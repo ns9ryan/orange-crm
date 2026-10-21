@@ -1,0 +1,3 @@
+python .\main.py D00000001 0 "D00000001" ./qrcode.png
+
+python .\main.py D00000001 D00000001 0 "D00000001" ./qrcode.png

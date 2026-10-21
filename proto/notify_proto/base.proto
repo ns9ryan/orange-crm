@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package notify;
+option go_package   = ".;notify";
+
+
+enum OperationType {
+    Create_Opt  = 0;    // 创建
+    Update_Opt  = 1;    // 编辑
+}

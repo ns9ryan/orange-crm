@@ -1,0 +1,11 @@
+"page.paging" = "是否分页"
+"page.page" = "当前页码"
+"page.page_size" = "分页数量"
+
+"role.name" = "Role Name"
+
+"validate.require" = "%s field cannot be empty"
+"validate.required-if" = "%s field cannot be empty"
+"validate.length" = "%s field value `%v` field length should be {min} to {max} characters"
+"validate.in" = "%s field value `%v` field value should meet the value range: {pattern}"
+"validate.min" = "%s field value `%v` field minimum value should be {min}"

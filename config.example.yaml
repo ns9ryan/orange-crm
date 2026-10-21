@@ -1,0 +1,146 @@
+# server aaaa
+server:
+    # http运行端口
+    addr: 8888
+    # 环境配置
+    # debug 开发环境，gin，gorm打印在控制台，不使用casbin鉴权
+    # release 正式环境，gin,gorm打印在日志文件里面，开启casbin鉴权
+    mode: 'debug'
+    # gorm日志打印级别：Silent = 1, Error = 2, Warn = 3, Info = 4
+    gorm_log_level: 4
+    # 默认语言：zh 中文(默认)|en 英语|es 西班牙语|pt 葡萄牙语
+    lang: 'zh'
+    # 初始超级管理员密码,为空则默认123456
+    super_password: 'aaa'
+    # 重置密码,为空则默认123456
+    reset_password: 'aaaa'
+    # 创建荷官默认币种,为空默认USD
+    dealer_currency_code: 'USD'
+    # 限制会员数量
+    limit_player: 10000
+    # 系统路径前缀
+    origin_path_prefix:
+        - service
+        - crm
+        - orange-crm
+
+# zap
+zap:
+    # 日志文件夹
+    dir:            'runtime/log'
+    # 日志格式：console|json
+    format:         'console'
+    # 日志前缀
+    prefix:         '[orange-crm]'
+    # 编码器类型：LowercaseLevelEncoder 小写编码器(默认)
+    # LowercaseColorLevelEncoder 小写编码器带颜色
+    # CapitalLevelEncoder 大写编码器
+    # CapitalColorLevelEncoder 大写编码器带颜色
+    encode_level:   'CapitalColorLevelEncoder'
+    # 是否输出控制台
+    log_in_console: true
+
+# mysql
+mysql:
+    # 是否输出控制台
+    username:  'root'
+    # 密码
+    password:  'root'
+    # 服务器地址
+    hostname:  '127.0.0.1'
+    # 数据库端口
+    host_port: 3306
+    # 数据库名
+    database:  'orange_crm'
+    # 数据库表前缀
+    prefix:    'or_'
+
+# redis
+redis:
+    # 服务器地址:端口
+    addr:     '127.0.0.1:6379'
+    # 密码
+    password: ''
+    # 单实例模式下redis的哪个数据库
+    db:       0
+
+# jwt
+jwt:
+    # 过期时间(单位：秒)
+    expires_time: 86400 # 1天
+    # 密钥,用于加盐的字符串
+    secret_key: aaaa
+    # 发布者
+    issuer: orange
+    # 商户token过期时间(单位：秒)
+    merchant_token_expires_time: 2592000 # 1天
+
+# upload
+upload:
+    img:
+        size: 2097152 # 最大上传2M
+        ext: # 允许上传的后缀
+            - .jpg
+            - .jpeg
+            - .png
+            - .gif
+            - .bmp
+            - .webp
+            - .tiff
+            - .heif
+            - .heic
+            - .svg
+            - .eps
+        save_path: "upload/common/img"
+    avatar:
+        size: 2097152 # 最大上传2M
+        ext: # 允许上传的后缀
+            - .jpg
+            - .jpeg
+            - .png
+            - .gif
+            - .bmp
+            - .webp
+            - .tiff
+            - .heif
+            - .heic
+            - .svg
+            - .eps
+        save_path: "upload/avatar"
+    qrcode:
+        size: 2097152 # 最大上传2M
+        ext: # 允许上传的后缀
+            - .jpg
+            - .jpeg
+            - .png
+        save_path: "upload/qrcode"
+    video:
+        size: 209715200 #最大上传200M
+        ext:
+            - .mp4
+            - .avi
+            - .mov
+            - .mkv
+            - .webm
+            - .flv
+            - .wmv
+            - .3gp
+            - .ogg
+        save_path: "upload/video"
+
+# 游戏服务名
+game_service_name:
+    - BacXService   # 百家乐游戏服务
+    - LongHuService # 龙虎游戏服务
+    - RotService    # 轮盘游戏服务
+    - SicboService  # 骰宝游戏服务
+    - FtanService   # 番摊游戏服务
+    - SdieService   # 色碟游戏服务
+    - FscService    # 鱼虾蟹游戏服务
+
+# 游戏通知配置
+game_notify:
+    # 请求主机名
+#    host: 192.168.0.71
+    # 端口号
+    port: 9002

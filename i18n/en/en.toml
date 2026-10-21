@@ -1,0 +1,17 @@
+ok = "ok"
+
+# api 公共状态返回信息
+success = "success"
+fail = "System Error"
+login_invalid = "Please log in first"
+request_err = "Illegal request parameters"
+no_permission = "No permission"
+editable_err = "Backend test-specific data cannot be edited. Currently, there are restrictions. The restrictions will be removed after the project goes online. If you need to test, please create new data yourself."
+deletable_err = "The backend test-specific data cannot be deleted. Currently, there is a limit. The limit will be removed when the project goes online. If you need to test, please create new data yourself."
+validate_err = "Parameter error"
+validate_err_scan = "Validation parameter parsing error"
+identity_invalid = "Please log in first (invalid identity)"
+
+# 时间参数返回信息
+"time.cannot.exceed.one.month" = "The time interval cannot exceed one month"
+"query.type.exception" = "Query type exception"

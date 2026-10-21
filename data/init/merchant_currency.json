@@ -1,0 +1,38 @@
+[
+	{
+		"ID": 1,
+		"Username": "merchant001",
+		"Currency": "USD",
+		"MerchantCurrencyId": "merchant001_USD",
+		"Digits": 100,
+		"CommissionRate": 1,
+		"RollingRate": 2
+	},
+	{
+		"ID": 2,
+		"Username": "sub_merchant001",
+		"Currency": "USD",
+		"MerchantCurrencyId": "sub_merchant001_USD",
+		"Digits": 100,
+		"CommissionRate": 1,
+		"RollingRate": 2
+	},
+	{
+		"ID": 3,
+		"Username": "merchant002",
+		"Currency": "USD",
+		"MerchantCurrencyId": "merchant002_USD",
+		"Digits": 100,
+		"CommissionRate": 1,
+		"RollingRate": 2
+	},
+	{
+		"ID": 4,
+		"Username": "sub_merchant002",
+		"Currency": "USD",
+		"MerchantCurrencyId": "sub_merchant002_USD",
+		"Digits": 100,
+		"CommissionRate": 1,
+		"RollingRate": 2
+	}
+]

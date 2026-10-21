@@ -1,0 +1,22 @@
+syntax = "proto3";
+//import "notify_proto/base.proto";
+
+package notify;
+option go_package   = ".;notify";
+
+enum MerchantOperationType {
+	Create_Main_Opt                 = 0;    // 创建主商户（会同时创建一个子商户）
+	Create_son_Opt                  = 1;    // 创建子商户
+	Merchant_Update_Opt             = 2;    // 编辑
+	Merchant_Delete_Merchant_Opt    = 3;    // 删除
+	Merchant_ResetPassword_Opt      = 4;    // 重置商户密码
+}
+
+// 商户通知
+message MerchantNotify {
+	MerchantOperationType OptType = 1;
+	string MerchantId = 2;
+	string Remark = 3;
+}
+
+

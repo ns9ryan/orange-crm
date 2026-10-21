@@ -1,0 +1,174 @@
+# 通用
+"common.upload.img.event_type.incorrect" = "Incorrect event type"
+"upload.img.too.large" = "Image file is too large"
+"upload.img.format.incorrect" = "Incorrect image file format"
+
+# 上传
+"upload.avatar.too.large" = "Avatar file is too large"
+"upload.avatar.format.incorrect" = "Incorrect avatar file format"
+
+# 登录
+"http.login.success" = "Login successful"
+"http.login.admin.no.exit" = "Incorrect username or password"
+"http.login.admin.prohibited" = "User is prohibited from logging in"
+"http.login.admin.password.error" = "Incorrect password"
+"http.login.admin.token.get.error" = "Failed to obtain token"
+"http.login.admin.token.json.error" = "Failed to convert login info to JSON"
+"http.login.admin.token.save.error" = "Failed to save token to Redis during login"
+"http.login.merchant.password.error" = "Incorrect password"
+"http.login.merchant.no.exit" = "Incorrect username or password"
+"http.login.merchant.prohibited" = "Merchant is prohibited from logging in"
+"http.login.merchant.token.get.error" = "Failed to obtain token"
+
+# 角色
+"role.id.no.exist" = "Role does not exist"
+"role.disable" = "Role is disabled"
+"role.pid.no.exist" = "Parent role does not exist"
+"role.name.exist" = "Role name already exists"
+"role.del.subrole.first" = "Please delete sub-roles first"
+"role.api.invalid" = "Invalid API found"
+"role.del.account.first" = "Role has associated accounts and cannot be deleted"
+"role.menu.invalid" = "Invalid menu found"
+"role.parent.menu.no.exist" = "Parent menu does not exist, please set the parent menu first"
+"role.parent.api.no.exist" = "Parent API does not exist, please set the parent API first"
+"role.status.has.account.disable" = "Role has associated accounts and cannot be disabled"
+
+# 菜单
+"menu.id.no.exist" = "Menu does not exist"
+"menu.pid.no.exist" = "Parent menu does not exist"
+"menu.menu_name.exist" = "Menu name already exists"
+"menu.del.submenu.first" = "Please delete sub-menus first"
+"menu.del.has.role" = "Menu is used by a role and cannot be deleted"
+
+# 语言
+"lang.no.exist" = "System language does not exist"
+
+# 管理员
+"admin.id.no.exist" = "Admin does not exist"
+"admin.username.exist" = "Admin account already exists"
+
+# api
+"api.id.no.exist" = "API does not exist"
+"api.params.method.incorrect" = "Request method parameter is incorrect"
+"api.path.exist" = "Path already exists"
+"api.del.has.role" = "API is being used by a role and cannot be deleted"
+
+# 荷官
+"dealer.id.no.exist" = "Dealer does not exist"
+"dealer.employee_number.exist" = "Dealer employee number already exists"
+
+# 系统币种
+"system_currency.id.no.exist" = "System currency does not exist"
+
+# 币种
+"currency.id.no.exist" = "Currency does not exist"
+"currency.code.exist" = "Currency code already exists"
+"currency.code.no.exist" = "Currency code does not exist"
+"currency.to_code.duplicated" = "Target currency is duplicated"
+"currency.to_code.exchange_rate.incorrect" = "Target currency exchange rate format is incorrect"
+"currency.del.exist.merchant" = "Currency is in use by merchant and cannot be deleted"
+"currency.del.exist.player" = "Currency is in use by player and cannot be deleted"
+"currency.del.exist.dealer" = "Currency is in use by dealer and cannot be deleted"
+
+# 商户
+"merchant.id.no.exist" = "Merchant does not exist"
+"merchant.username.exist" = "Merchant account already exists"
+"merchant.parent_id.no.exist" = "Parent merchant does not exist"
+"merchant.currency.id.no.exist" = "Merchant currency does not exist"
+"merchant.del.has.player" = "Merchant with associated players cannot be deleted"
+"merchant.del.has.sub" = "Please delete sub-accounts first"
+"merchant.add.chip.no.exist" = "Chip does not exist or has been disabled"
+"merchant.add.make.code.error" = "Failed to generate merchant code"
+"merchant.add.DefaultPlanForm.error" = "Default system betting limit template error"
+"merchant.add.username.eq.sub_username" = "Main merchant cannot have the same account as sub-account"
+"merchant.add.sub.chip.contain.parant" = "Sub-merchant chips can only be chips that the main merchant has"
+"merchant.addChildren.parent.no.root" = "Only main merchants can add sub-merchants"
+"merchant.addChildren.commission_rate.no.gt.root" = "Sub-merchant's commission rate cannot exceed the main merchant's"
+"merchant.addChildren.rolling_rate.no.gt.root" = "Sub-merchant's rolling rate cannot exceed the main merchant's"
+"merchant.can.not.edit.this.account" = "You are not allowed to edit this account"
+"merchant.add.tip.error" = "The configured reward value is out of range"
+
+# 游戏分类
+"game_category.id.no.exist" = "Game category does not exist"
+"game_category.code.exist" = "Game category identifier already exists"
+"game_category.del.game_table.first" = "Please delete the game tables first"
+"game_category.sub.code.no.exist" = "Sub-category game identifier does not exist"
+
+# 游戏桌台
+"game_table.id.no.exist" = "Game table does not exist"
+"game_table.code.exist" = "Game table identifier already exists"
+"game_table.desk_no.exist" = "Game desk number already exists"
+
+# 玩家
+"play.id.no.exist" = "Player does not exist"
+"play.username.exist" = "Player account already exists"
+"play.parent_id.no.exist" = "Parent player does not exist"
+"play.player_type.error" = "Incorrect player type"
+"play.money_type.error" = "Incorrect player mode"
+"play.add.chip.no.exist" = "Chip does not exist or has been disabled"
+"play.add.betting_limit.no.exist" = "Betting limit does not exist or has been disabled"
+"play.add.chip.merchant.no.exist" = "The selected chip is not in the merchant's chips"
+"play.add.betting_limit.merchant.no.exist" = "The selected betting limit is not in the merchant's betting limits"
+"play.add.chip.merchant.template.no.exist" = "Chip templates can only contain merchant chips"
+"play.add.self" = "Can only create members of oneself or sub-merchants"
+"play.edit.self" = "Can only edit members of oneself or sub-merchants"
+
+# 控端账号
+"control_account.id.no.exist" = "Control account does not exist"
+"control_account.username.exist" = "Control account already exists"
+"control_account.level.no.exist" = "Control account level does not exist"
+
+# 限红
+"betting_limit.id.no.exist" = "Betting limit does not exist"
+"betting_limit.max.lt.min" = "Max bet is less than min bet"
+"betting_limit.MinBet.incorrect" = "Incorrect minimum bet format"
+"betting_limit.MaxBet.incorrect" = "Incorrect maximum bet format"
+"betting_limit.MaxBet.gt.10000000" = "Maximum bet exceeds 10,000,000"
+"betting_limit.MinBet.lte.zero" = "Minimum bet cannot be less than or equal to 0"
+
+# 筹码
+"system_chip.id.no.exist" = "Chip does not exist"
+"system_chip.Amount.incorrect" = "Incorrect chip amount format"
+"system_chip.Amount.lte.zero" = "Chip amount cannot be less than or equal to 0"
+"system_chip.Amount.exist" = "A chip with this denomination already exists"
+
+# 开答
+"game_answer.game_type.incorrect" = "Incorrect game type"
+
+# 限红方案
+"template_plan.name.exist" = "Betting limit plan name already exists"
+"template_plan.area.incorrect" = "Incorrect betting limit plan area"
+"template_plan.used" = "Betting limit plan is in use and cannot be modified/deleted"
+
+# 限红模板
+"template_plan_form.id.no.exist" = "System betting limit template does not exist"
+"template_plan_form.name.exist" = "System betting limit template name already exists"
+"template_plan_form.game.no.exist" = "System betting limit template game does not exist"
+"template_plan_form.betArea.categorySub.incorrect" = "Incorrect system betting limit template betting area category"
+"template_plan_form.area.incorrect" = "Incorrect system betting limit template area"
+"template_plan_form.min_bet.incorrect" = "Incorrect system betting limit template minimum bet amount format"
+"template_plan_form.max_bet.incorrect" = "Incorrect system betting limit template maximum bet amount format"
+"template_plan_form.digits.incorrect" = "System betting limit template must have the same number of decimal places for both minimum and maximum bet amounts"
+
+# 商户限红模板
+"merchant_template_betlimit.id.no.exist" = "Merchant betting limit template does not exist"
+"merchant_template_betlimit.game.no.exist" = "Merchant betting limit template game does not exist"
+"merchant_template_betlimit.betArea.categorySub.incorrect" = "Incorrect merchant betting limit template betting area category"
+"merchant_template_betlimit.area.incorrect" = "Incorrect merchant betting limit template area"
+"merchant_template_betlimit.del.default" = "Default template cannot be deleted"
+"merchant_template_betlimit.del.one" = "At least one template must be retained"
+"merchant_template_betlimit.edit.default.one" = "At least one template must be the default"
+"merchant_template_betlimit.del.self" = "You can only delete your own templates or those of your sub-merchants"
+"merchant_template_betlimit.add.self" = "Can only create templates for oneself or sub-merchants"
+"merchant_template_betlimit.edit.self" = "Only allowed to create templates for oneself or sub-merchants"
+"merchant_template_betlimit.detail.no_permission" = "You do not have permission to view the merchant limit templates"
+
+# 系统公告
+"system_notice.id.no.exist" = "System notice does not exist"
+"system_notice.title.exist" = "Notice title already exists"
+
+# 服务节点
+"service_node.id.no.exist" = "Service node does not exist"
+
+# 商户公告
+"merchant_notice.title.exist" = "Announcement title already exists"

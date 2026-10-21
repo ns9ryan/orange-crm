@@ -1,0 +1,11 @@
+"page.paging" = "是否分页"
+"page.page" = "当前页码"
+"page.page_size" = "分页数量"
+
+"role.name" = "角色名称"
+
+"validate.require" = "%s字段不能为空"
+"validate.required-if" = "%s字段不能为空"
+"validate.length" = "%s字段值`%v`字段长度应当为{min}到{max}个字符"
+"validate.in" = "%s字段值`%v`字段值应当满足取值范围:{pattern}"
+"validate.min" = "%s字段值`%v`字段最小值应当为{min}"

@@ -1,0 +1,17 @@
+ok = "ok"
+
+# api 公共状态返回信息
+success = "成功"
+fail = "系统错误"
+login_invalid = "请先登录"
+request_err = "非法请求参数"
+no_permission = "暂无权限"
+editable_err = "后端测试专用数据不可编辑,目前先限制,项目上线会去掉限制,需要测试请自行创建新数据"
+deletable_err = "后端测试专用数据不可删除,目前先限制,项目上线会去掉限制,需要测试请自行创建新数据"
+validate_err = "参数错误"
+validate_err_scan = "验证参数解析错误"
+identity_invalid = "请先登录(无效身份)"
+
+# 时间参数返回信息
+"time.cannot.exceed.one.month" = "时间间隔不能超过一个月"
+"query.type.exception" = "查询类型异常"
